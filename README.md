@@ -75,6 +75,8 @@ For exact file formats, EEG montage, event codes, and label definitions, consult
 
 ## Citation
 
+If you use this data, please cite:
+
 ```bibtex
 @article{ehrlich2018coadaptation,
   title   = {Human-agent co-adaptation using error-related potentials},
