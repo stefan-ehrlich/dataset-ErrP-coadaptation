@@ -20,10 +20,14 @@ The dataset supports research on **error-related potentials (ErrP)** as an impli
 
 ```text
 dataset-ErrP-coadaptation/
-├── documentation/                  # protocol, variable definitions, file formats, markers
+├── documentation/            # protocol, variable definitions, file formats, markers
 │   └── ...
-├── data/
-│   ├── CALIB/                      # open-loop calibration session data
-│   ├── CORL/                       # closed-loop co-adaptation session data
+├── data_coadaptation/        # open-loop calibration and closed-loop co-adaptation session data
+│   ├── s03/                      
+│   ├── s04/                       
+│   └── ...
+├── data_cursor/              # open-loop calibration and closed-loop co-adaptation session data
+│   ├── s03/                      
+│   ├── s04/                       
 │   └── ...
 └── README.md
