@@ -7,7 +7,7 @@ This repository contains the dataset accompanying the publication:
 > **Ehrlich, S. K., & Cheng, G. (2018).**  
 > *Human-agent co-adaptation using error-related potentials.*  
 > **Journal of Neural Engineering, 15, 066014.**  
-> https://doi.org/10.1088/1741-2552/aae069 :contentReference[oaicite:1]{index=1}
+> https://doi.org/10.1088/1741-2552/aae069
 
 The dataset supports research on **error-related potentials (ErrP)** as an implicit feedback signal for **interactive learning and co-adaptation** in human–robot interaction (HRI). The study demonstrates a two-party co-adaptive system where:
 
@@ -45,8 +45,8 @@ The experiment consisted of two phases:
 - **CORL (closed-loop co-adaptation):** the robot gaze policy started as uniformly random and was updated trial-by-trial based on **online ErrP decoding**, yielding emergent robot behavior aligned with the human’s interpretation.
 
 **Key technical properties relevant for dataset use:**
-- **EEG:** 32 channels (actiChamp, Brain Products), **1024 Hz**, average mastoid reference (TP9/TP10), **EOG channels included**. :contentReference[oaicite:0]{index=0}  
-- **Online classification:** rLDA using temporal mean features in several post-feedback windows. :contentReference[oaicite:1]{index=1}  
+- **EEG:** 32 channels (actiChamp, Brain Products), **1024 Hz**, average mastoid reference (TP9/TP10), **EOG channels included**. 
+- **Online classification:** rLDA using temporal mean features in several post-feedback windows.
 - **Robot policy model:** probabilistic state policy over gaze states (selected object, other objects, human), updated using a reward from decoded ErrPs (**+1 non-error**, **−1 error**) with episode-based update strategy.
 
 ---
